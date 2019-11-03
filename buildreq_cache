@@ -1,4 +1,4 @@
-1.89
+1.91
 perl(Capture::Tiny)
 perl(FFI::CheckLib)
 perl(File::Which)
@@ -8,3 +8,4 @@ perl(Path::Tiny)
 perl(Sub::Info)
 perl(Test2::Require::Module)
 perl(Test2::V0)
+util-linux
