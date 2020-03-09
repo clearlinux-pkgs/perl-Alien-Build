@@ -1,5 +1,9 @@
 Revision history for Alien-Build
 
+2.12      2020-03-09 10:02:37 -0600
+  - Fixed bug where Probe::Vcpkg plugin doesn't set version probe hook
+    property (gh#178)
+
 2.11      2020-03-09 03:04:49 -0600
   - Production release identical to 2.10
 
