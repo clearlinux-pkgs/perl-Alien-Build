@@ -4,7 +4,7 @@
 #
 Name     : perl-Alien-Build
 Version  : 2.48
-Release  : 46
+Release  : 47
 URL      : https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Alien-Build-2.48.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Alien-Build-2.48.tar.gz
 Summary  : 'Build external dependencies for use in CPAN'
@@ -195,89 +195,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Base.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Base/Authoring.pod
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Base/FAQ.pod
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Base/PkgConfig.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Base/Wrapper.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/CommandSequence.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Interpolate.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Interpolate/Default.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Log.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Log/Abbreviate.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Log/Default.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/MM.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Manual/Alien.pod
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Manual/AlienAuthor.pod
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Manual/AlienUser.pod
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Manual/Contributing.pod
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Manual/FAQ.pod
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Manual/PluginAuthor.pod
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Build.pod
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Build/Autoconf.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Build/CMake.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Build/Copy.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Build/MSYS.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Build/Make.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Build/SearchDep.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Core.pod
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Core/CleanInstall.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Core/Download.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Core/FFI.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Core/Gather.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Core/Legacy.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Core/Override.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Core/Setup.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Core/Tail.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Decode.pod
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Decode/DirListing.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Decode/DirListingFtpcopy.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Decode/HTML.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Decode/Mojo.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Download.pod
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Download/Negotiate.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Extract.pod
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Extract/ArchiveTar.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Extract/ArchiveZip.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Extract/CommandLine.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Extract/Directory.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Extract/Negotiate.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Fetch.pod
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Fetch/CurlCommand.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Fetch/HTTPTiny.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Fetch/LWP.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Fetch/Local.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Fetch/LocalDir.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Fetch/NetFTP.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Fetch/Wget.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Gather/IsolateDynamic.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/PkgConfig/CommandLine.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/PkgConfig/LibPkgConf.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/PkgConfig/MakeStatic.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/PkgConfig/Negotiate.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/PkgConfig/PP.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Prefer.pod
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Prefer/BadVersion.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Prefer/GoodVersion.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Prefer/SortVersions.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Probe.pod
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Probe/CBuilder.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Probe/CommandLine.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Probe/Vcpkg.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Plugin/Test/Mock.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Temp.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Util.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/Version/Basic.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Build/rc.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Role.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Alien/Util.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Test/Alien.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Test/Alien/Build.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Test/Alien/CanCompile.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Test/Alien/CanPlatypus.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Test/Alien/Diag.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Test/Alien/Run.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Test/Alien/Synthetic.pm
-/usr/lib/perl5/vendor_perl/5.34.0/alienfile.pm
+/usr/lib/perl5/*
