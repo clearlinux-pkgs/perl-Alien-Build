@@ -4,10 +4,10 @@
 # Using build pattern: cpan
 #
 Name     : perl-Alien-Build
-Version  : 2.79
-Release  : 67
-URL      : https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Alien-Build-2.79.tar.gz
-Source0  : https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Alien-Build-2.79.tar.gz
+Version  : 2.80
+Release  : 68
+URL      : https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Alien-Build-2.80.tar.gz
+Source0  : https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Alien-Build-2.80.tar.gz
 Summary  : 'Build external dependencies for use in CPAN'
 Group    : Development/Tools
 License  : Artistic-1.0 Artistic-1.0-Perl GPL-1.0
@@ -30,7 +30,7 @@ BuildRequires : perl(Test2::V0)
 NAME
 Alien::Build - Build external dependencies for use in CPAN
 VERSION
-version 2.79
+version 2.80
 
 %package dev
 Summary: dev components for the perl-Alien-Build package.
@@ -60,10 +60,10 @@ perl components for the perl-Alien-Build package.
 
 
 %prep
-%setup -q -n Alien-Build-2.79
-cd %{_builddir}/Alien-Build-2.79
+%setup -q -n Alien-Build-2.80
+cd %{_builddir}/Alien-Build-2.80
 pushd ..
-cp -a Alien-Build-2.79 buildavx2
+cp -a Alien-Build-2.80 buildavx2
 popd
 
 %build
