@@ -5,7 +5,7 @@
 #
 Name     : perl-Alien-Build
 Version  : 2.80
-Release  : 69
+Release  : 70
 URL      : https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Alien-Build-2.80.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Alien-Build-2.80.tar.gz
 Summary  : 'Build external dependencies for use in CPAN'
