@@ -1,9 +1,7 @@
-2.80
+2.83
 perl(Capture::Tiny)
 perl(FFI::CheckLib)
 perl(File::Which)
 perl(File::chdir)
-perl(Getopt::Long)
-perl(Importer)
 perl(Path::Tiny)
 perl(Test2::V0)
