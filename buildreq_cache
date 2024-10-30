@@ -1,7 +1,6 @@
-2.83
+2.84
 perl(Capture::Tiny)
 perl(FFI::CheckLib)
 perl(File::Which)
 perl(File::chdir)
 perl(Path::Tiny)
-perl(Test2::V0)
